@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240823211019">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240824121628">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -930,7 +930,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="flex flex-col gap-y-5 pb-12 mt-6 mb-6 border-b-2 border-secondary-900 border-opacity-50 border-solid">
+						<div class="flex flex-col gap-y-5 pb-6 mb-6 border-b-2 border-secondary-900 border-opacity-50 border-solid">
 							<div class="flex flex-col gap-5 home-row home-row--random-game py-6 rounded-xl border-2 border-secondary-900 border-opacity-50 border-solid">
 								<h2 class="text-4xl text-center font-bold">Find your game!</h2>
 								<div class="home-row__body">
@@ -1582,7 +1582,6 @@
 						display: flex;
 						justify-content: center;
 						align-items: center;
-						background-color: #000;
 					}
 					/* Блок з елементами */
 					.preloader__body {
@@ -1649,14 +1648,13 @@
 					<div class="preloader">
 						<div class="preloader__body">
               <div class="preloader__logo">
-                <div class="logo-back">
+                <div class="logo-back logo-preloader" style="mix-blend-mode: luminosity;">
                   <img src="img/preloader.jpeg" alt="Image Logo" width=320>    
                 </div>
-                <div class="logo-front">
+                <div class="logo-front logo-preloader">
                   <img src="img/preloader.jpeg" alt="Image Logo">    
                 </div> 
               </div>
-							<div class="preloader__line"><span></span></div>
 						</div>
 					</div>`;
 					document.body.insertAdjacentHTML("beforeend", preloaderTemplate);
@@ -1703,7 +1701,7 @@
 						setTimeout(() => {
 							preloader.remove();
 							preloaderContainer.remove();
-						}, 500);
+						}, 50000000);
 					}
 				} else {
 					preloaderContainer.remove();
@@ -1713,8 +1711,8 @@
 		</script>
 	</div>
 
-	<script src="https://telegram.org/js/telegram-web-app.js?_v=20240823211019"></script>
-	<script src="js/app.min.js?_v=20240823211019"></script>
+	<script src="https://telegram.org/js/telegram-web-app.js?_v=20240824121628"></script>
+	<script src="js/app.min.js?_v=20240824121628"></script>
 
 
 </body>
