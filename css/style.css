@@ -2022,9 +2022,9 @@ body::after {
 .switcher-lang__list::-webkit-scrollbar {
   display: none
 }
-body,
-html {
-  background-color: var(--color-secondary-base)
+.loaded body,
+.loaded html {
+  background-color: var(--color-secondary-base)!important
 }
 .page {
   padding: .75rem 0
