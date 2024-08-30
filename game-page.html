@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240829171929">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240830210406">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -249,7 +249,7 @@
 											</div>
 
 										</button>
-										<button type="button" class="balance-deposite button button-primary items-center justify-center sm:px-3 sm:py-1" data-popup="#popupWallet">
+										<button type="button" class="balance-deposite button button-primary items-center justify-center min-width-[120px] sm:px-3 sm:py-1" data-popup="#popupWallet">
 											<span class="sm:hidden inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
 													<path d="M17.5526 13.9446H7.44737C6.92947 13.9446 6.5 13.4912 6.5 12.9446C6.5 12.3979 6.92947 11.9446 7.44737 11.9446H17.5526C18.0705 11.9446 18.5 12.3979 18.5 12.9446C18.5 13.4912 18.0705 13.9446 17.5526 13.9446Z" fill="#fff" />
 													<path d="M12.5 18.9446C11.9533 18.9446 11.5 18.5151 11.5 17.9972V7.89195C11.5 7.37405 11.9533 6.94458 12.5 6.94458C13.0467 6.94458 13.5 7.37405 13.5 7.89195V17.9972C13.5 18.5151 13.0467 18.9446 12.5 18.9446Z" fill="#fff" />
@@ -461,7 +461,7 @@
 										<path d="M16.6666 10H3.33325M3.33325 10L8.33325 15M3.33325 10L8.33325 5" stroke="#707290" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
 								</a>
-								<h1 class="game-name font-bold sm:text-2xl text-[16px]">
+								<h1 class="game-name font-bold sm:text-2xl text-[16px] sm:block hidden">
 									Gates of Olympus
 								</h1>
 							</div>
@@ -493,6 +493,34 @@
 
 							</div>
 							<!-- /.game-page-content__iframe -->
+
+							<div class="game-page-content__info sm:max-w-96 my-5">
+								<div class="flex items-center gap-2 justify-between p-2 bg-tertiary rounded-t-xl">
+									<div class="flex flex-1 justify-center gap-x-1.5 items-center bg-secondary-900/50 p-1 rounded-md"><span class="text-xs text-tertiary-600 font-semibold">24H</span> <span class="text-xs text-white font-bold">98%</span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+											<path d="M4 12L12 4M12 4H6.66667M12 4V9.33333" stroke="#6279F4" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg></div>
+									<div class="flex flex-1 justify-center gap-x-1.5 items-center bg-secondary-900/50 p-1 rounded-md"><span class="text-xs text-tertiary-600 font-semibold">Week</span> <span class="text-xs text-white font-bold">98%</span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+											<path d="M4 12L12 4M12 4H6.66667M12 4V9.33333" stroke="#6279F4" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg></div>
+									<div class="flex flex-1 justify-center gap-x-1.5 items-center p-1 bg-secondary-900/50 rounded-md"><span class="text-xs text-tertiary-600 font-semibold">Month</span> <span class="text-xs text-white font-bold">98%</span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+											<path d="M4 12L12 4M12 4H6.66667M12 4V9.33333" stroke="#6279F4" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg></div>
+								</div>
+								<div class="flex px-4 py-3 items-center gap-2 justify-between bg-tertiary text-tertiary-600 font-medium sm:text-base text-[14px] my-0.5">
+									<div class="font-bold text-md">Total RTP</div>
+									<div>
+										<span class="text-md text-white font-bold">96.5%</span>
+									</div>
+								</div>
+								<div class="flex px-4 py-3 rounded-b-xl items-center gap-2 justify-between bg-tertiary text-tertiary-600 font-medium sm:text-base text-[14px] my-0.5">
+									<div class="font-bold">Volatility</div>
+									<div>
+										<div class="status status--red text-sm px-3 ">
+											Error
+										</div>
+									</div>
+								</div>
+							</div>
 							<div class="my-10">
 								TEST STATUS
 								<div class="status status--red text-sm px-3 ">
@@ -508,34 +536,6 @@
 									Error
 								</div>
 							</div>
-							<div class="game-page-content__info max-w-96 my-5">
-								<div class="flex items-center gap-2 justify-between p-2 bg-tertiary rounded-t-xl">
-									<div class="flex flex-1 justify-center gap-x-1.5 items-center bg-secondary-900/50 p-1 rounded-md"><span class="text-xs text-tertiary-600 font-semibold">24H</span> <span class="text-xs text-white font-bold">98%</span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-											<path d="M4 12L12 4M12 4H6.66667M12 4V9.33333" stroke="#6279F4" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
-										</svg></div>
-									<div class="flex flex-1 justify-center gap-x-1.5 items-center bg-secondary-900/50 p-1 rounded-md"><span class="text-xs text-tertiary-600 font-semibold">Week</span> <span class="text-xs text-white font-bold">98%</span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-											<path d="M4 12L12 4M12 4H6.66667M12 4V9.33333" stroke="#6279F4" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
-										</svg></div>
-									<div class="flex flex-1 justify-center gap-x-1.5 items-center p-1 bg-secondary-900/50 rounded-md"><span class="text-xs text-tertiary-600 font-semibold">Month</span> <span class="text-xs text-white font-bold">98%</span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-											<path d="M4 12L12 4M12 4H6.66667M12 4V9.33333" stroke="#6279F4" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
-										</svg></div>
-								</div>
-								<div class="flex px-4 py-3 items-center gap-2 justify-between bg-tertiary text-tertiary-600 font-medium sm:text-lg text-[14px] my-0.5">
-									<div class="font-bold text-md">Total RTP</div>
-									<div>
-										<span class="text-md text-white font-bold">96.5%</span>
-									</div>
-								</div>
-								<div class="flex px-4 py-3 rounded-b-xl items-center gap-2 justify-between bg-tertiary text-tertiary-600 font-medium sm:text-lg text-[14px] my-0.5">
-									<div class="font-bold">Volatility</div>
-									<div>
-										<div class="status status--red text-sm px-3 ">
-											Error
-										</div>
-									</div>
-								</div>
-							</div>
-
 
 						</div>
 						<!-- /.game-page-content -->
@@ -543,7 +543,7 @@
 							<div class="flex flex-col gap-5 home-row">
 								<div class="home-row__header flex items-center justify-between flex-wrap gap-4">
 									<a class="font-semibold text-white hover:shadow-sm" href="">
-										<h1 class="font-semibold text-white xxs:text-base sm:text-lg flex flex-row items-center gap-2">You might also like</h1>
+										<h1 class="font-semibold text-white text-base sm:text-lg flex flex-row items-center gap-2">You might also like</h1>
 									</a>
 									<div class="flex items-center gap-4">
 										<a href="#" class="view-all text-sm font-bold text-primary transition-colors hover:text-primary-600">
@@ -1323,7 +1323,7 @@
 								</svg>Statistics</h2>
 							<div class="grid min-[450px]:grid-cols-2 grid-cols-1 sm:grid-cols-3 justify-between items-start gap-2 w-full">
 								<div class="border-solid sm:col-span-1 min-[450px]:col-span-2 border-[1px] border-tertiary-900 bg-gradient-to-b from-[#2A2A32] to-[#17161C] p-4 rounded-xl tile">
-									<div class="xs:flex flex-col max-w-[100%] xxs:hidden"></div>
+									<div class="xs:flex flex-col max-w-[100%] hidden"></div>
 									<div class="w-full flex flex-row justify-between">
 										<div class="flex flex-col gap-1"><span class="text-primary text-lg font-medium flex flex-row gap-2 items-center align-middle"><svg aria-hidden="true" focusable="false" data-prefix="fasr" data-icon="trophy" class="svg-inline--fa fa-trophy w-4 h-4 text-primary" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
 													<path fill="currentColor" d="M312 378.4c4-1.6 8.4-3.6 13.1-6.1c33.8-6 95.5-22 149.5-63.7C530.1 265.7 576 196.5 576 88l0-24-24 0L446.4 64c.3-5.2 .5-10.6 .7-16c.6-15.3 .9-31.3 .9-48L400 0 176 0 128 0c0 16.7 .3 32.7 .9 48c.2 5.4 .4 10.8 .7 16L24 64 0 64 0 88C0 196.5 45.9 265.7 101.5 308.6c53.9 41.7 115.7 57.6 149.5 63.7c4.7 2.5 9.1 4.5 13.1 6.1l0 85.6-80 0-24 0 0 48 24 0 104 0 104 0 24 0 0-48-24 0-80 0 0-85.6zM445.2 270.6c-17.5 13.6-36.3 24-54.4 32c22.7-40.3 42.8-100.5 51.9-190.6l84.4 0c-6 78.4-41.3 127.3-81.9 158.6zM48.9 112l84.4 0c9.1 90.1 29.2 150.3 51.9 190.6c-18.1-8-36.8-18.4-54.4-32C90.2 239.3 54.9 190.4 48.9 112zm128-64l222.2 0c-6.1 153.1-40.8 224.7-68 257.3c-14.7 17.7-28.1 25-36 28.2c-3.1 1.2-5.6 1.9-7.2 2.3c-1.6-.3-4.1-1-7.2-2.3c-7.9-3.1-21.2-10.5-36-28.2C217.7 272.7 183 201.1 176.9 48z">
@@ -1332,7 +1332,7 @@
 									</div>
 								</div>
 								<div class="border-solid border-[1px] border-tertiary-900 bg-tertiary p-4 rounded-xl tile">
-									<div class="xs:flex flex-col max-w-[100%] xxs:hidden"></div>
+									<div class="xs:flex flex-col max-w-[100%] hidden"></div>
 									<div class="w-full flex flex-row justify-between">
 										<div class="flex flex-col gap-1">
 											<span class="text-secondary-700 text-lg font-medium flex flex-row gap-2 items-center align-middle"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="dice-six" class="svg-inline--fa fa-dice-six w-4 h-4 text-secondary-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -1343,7 +1343,7 @@
 									</div>
 								</div>
 								<div class="border-solid border-[1px] border-tertiary-900 bg-tertiary p-4 rounded-xl tile">
-									<div class="xs:flex flex-col max-w-[100%] xxs:hidden"></div>
+									<div class="xs:flex flex-col max-w-[100%] hidden"></div>
 									<div class="w-full flex flex-row justify-between">
 										<div class="flex flex-col gap-1">
 											<span class="text-secondary-700 text-lg font-medium flex flex-row gap-2 items-center align-middle">
@@ -1383,36 +1383,31 @@
 							<h2 class="font-semibold text-white sm:text-lg text-[14px] flex flex-row items-center gap-2 mb-4"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="clock-rotate-left" class="text-primary svg-inline--fa fa-clock-rotate-left w-5 h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 									<path fill="currentColor" d="M48 106.7L48 56c0-13.3-10.7-24-24-24S0 42.7 0 56L0 168c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-55.3 0c37-57.8 101.7-96 175.3-96c114.9 0 208 93.1 208 208s-93.1 208-208 208c-42.5 0-81.9-12.7-114.7-34.5c-11-7.3-25.9-4.3-33.3 6.7s-4.3 25.9 6.7 33.3C155.2 496.4 203.8 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C170.3 0 94.4 42.1 48 106.7zM256 128c-13.3 0-24 10.7-24 24l0 104c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65 0-94.1c0-13.3-10.7-24-24-24z"></path>
 								</svg>Transactions</h2>
-							<table class="w-full caption-bottom text-sm rounded-xl bg-tertiary table-fixed">
-								<caption class="mt-4 text-sm text-muted-foreground">
-									<nav data-scope="pagination" class="mx-auto flex w-full flex-col items-center">
-										<ul class="flex flex-row items-center gap-1">
-											<li class=""><button type="button" tabindex="0" aria-label="Next" disabled="" data-melt-pagination-next="" data-pagination-next-button="" class="button button-primary px-4 py-2" data-button-root=""> <span>Load More</span> </button></li>
-										</ul>
-									</nav>
-								</caption>
-								<thead class="[&amp;_tr]:border-b border-tertiary-900 roundex-t-xl bg-highlight text-secondary-600 font-semibold">
-									<tr class="border-b px-2 overflow-auto transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted border-tertiary-900">
-										<th class="sm:px-3 xxs:px-2 align-middle font-semibold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-left text-sm h-[34px] truncate overflow-hidden xxs:w-1/4 sm:w-1/5">
-											<span>Action</span>
-										</th>
-										<th class="sm:px-3 xxs:px-2 align-middle font-normal text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-center text-sm h-[34px] truncate overflow-hidden xxs:w-1/4 sm:w-1/5">
-											<span>Amount</span>
-										</th>
-										<th class="sm:px-3 xxs:px-2 align-middle font-normal text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-center text-sm h-[34px] truncate overflow-hidden xxs:w-1/4 sm:w-1/5 sm:table-cell">
-											<span>Status</span>
-										</th>
-										<th class="sm:px-3 xxs:px-2 align-middle font-normal text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-center text-sm h-[34px] truncate overflow-hidden sm:w-1/5 xxs:hidden xs:hidden sm:table-cell">
-											<span>Date</span>
-										</th>
-										<th class="sm:px-3 xxs:px-2 align-middle font-normal text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-center text-sm h-[34px] truncate overflow-hidden xxs:w-1/4 sm:w-1/5">
-											<span>More Info</span>
-										</th>
-									</tr>
-								</thead>
-								<tbody class="[&amp;_tr:last-child]:border-0 relative table-fixed">
-									<!-- <tr class="transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted bg-#1F232D">
-                    <td class="sm:px-3 xxs:px-2 align-middle [&amp;:has([role=checkbox])]:pr-0" colspan="5"
+							<div class="overflow-y-hidden overflow-x-auto">
+								<table class="w-full caption-bottom text-sm rounded-xl bg-tertiary overflow-y-hidden overflow-x-auto">
+
+									<thead class="[&amp;_tr]:border-b border-tertiary-900 roundex-t-xl bg-highlight text-secondary-600 font-semibold">
+										<tr class="border-b px-2 overflow-auto transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted border-tertiary-900">
+											<th class="text-center min-width-[120px] sm:px-3 px-2 align-middle font-semibold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-left text-sm h-[34px] truncate overflow-hidden w-1/4 sm:w-1/5">
+												<span>Action</span>
+											</th>
+											<th class="text-center min-width-[120px] sm:px-3 px-2 align-middle font-semibold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-center text-sm h-[34px] truncate overflow-hidden w-1/4 sm:w-1/5">
+												<span>Amount</span>
+											</th>
+											<th class="text-center min-width-[120px] sm:px-3 px-2 align-middle font-semibold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-center text-sm h-[34px] truncate overflow-hidden w-1/4 sm:w-1/5 sm:table-cell">
+												<span>Status</span>
+											</th>
+											<th class="text-center min-width-[120px] sm:px-3 px-2 align-middle font-semibold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-center text-sm h-[34px] truncate overflow-hidden sm:w-1/5 hidden xs:hidden sm:table-cell">
+												<span>Date</span>
+											</th>
+											<th class="text-center min-width-[120px] sm:px-3 px-2 align-middle font-semibold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-center text-sm h-[34px] truncate overflow-hidden w-1/4 sm:w-1/5">
+												<span>More Info</span>
+											</th>
+										</tr>
+									</thead>
+									<tbody class="[&amp;_tr:last-child]:border-0 relative ">
+										<!-- <tr class="transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted bg-#1F232D">
+                    <td class="min-width-[120px] sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0" colspan="5"
                       width="100%">
                       <div class="w-full flex flex-col justify-center items-center py-4">
                         <div class="rounded-full bg-secondary-700/50 w-11 h-11 flex justify-center items-center"><svg
@@ -1427,64 +1422,68 @@
                       </div>
                     </td>
                   </tr> -->
-									<tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted border-tertiary-900">
-										<td class="sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full xxs:w-1/4 sm:w-1/5">
-											<span class="justify-start text-sm gap-2 font-sans text-green-500 font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
-												<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-arrow-down" class="svg-inline--fa fa-circle-arrow-down text-success w-5 h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-													<path fill="currentColor" d="M256 48a208 208 0 1 0 0 416 208 208 0 1 0 0-416zm0 464A256 256 0 1 1 256 0a256 256 0 1 1 0 512zM361 305l-88 88c-9.4 9.4-24.6 9.4-33.9 0l-88-88c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L232 136c0-13.3 10.7-24 24-24s24 10.7 24 24l0 182.1 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z">
-													</path>
-												</svg> <span class="truncate overflow-hidden sm:pl-2 pl-1">Cashback</span></span>
-										</td>
-										<td class="sm:px-3 xxs:px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full xxs:w-1/4 sm:w-1/5">
-											<span class="justify-start text-sm items-center font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
-												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 56 56" class="w-4 h-4 svg-inline--fa">
-													<circle cx="28" cy="28" r="28" fill="#0088CC"></circle>
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M20.2088 18.5044L35.9132 18.5043C36.4688 18.5043 37.024 18.5859 37.6042 18.8564C38.2997 19.1806 38.6685 19.6916 38.9269 20.0695C38.947 20.0989 38.9658 20.1292 38.9832 20.1602C39.287 20.701 39.4436 21.2849 39.4436 21.913C39.4436 22.5098 39.3016 23.16 38.9832 23.7267C38.9802 23.7322 38.9771 23.7375 38.974 23.7429L29.0522 40.7864C28.8334 41.1623 28.4307 41.3928 27.9958 41.3913C27.5609 41.3898 27.1598 41.1563 26.9437 40.7789L17.2041 23.7718C17.2013 23.7672 17.1985 23.7626 17.1957 23.7579C16.9728 23.3906 16.6281 22.8226 16.5678 22.0896C16.5124 21.4155 16.6639 20.7401 17.0026 20.1545C17.3413 19.5688 17.8512 19.1006 18.4645 18.814C19.1221 18.5067 19.7885 18.5044 20.2088 18.5044ZM26.7827 20.9391L20.2088 20.9391C19.7769 20.9391 19.6111 20.9657 19.4952 21.0199C19.3349 21.0947 19.2003 21.2178 19.1103 21.3734C19.0203 21.5291 18.9796 21.7095 18.9944 21.8901C19.0029 21.9936 19.0451 22.112 19.294 22.5225C19.2992 22.5311 19.3043 22.5398 19.3093 22.5485L26.7827 35.5984V20.9391ZM29.2175 20.9391V35.6629L36.864 22.5278C36.9503 22.371 37.0088 22.1444 37.0088 21.913C37.0088 21.7253 36.9699 21.5623 36.8829 21.3943C36.7916 21.263 36.736 21.1935 36.6895 21.1459C36.6496 21.1052 36.6189 21.0834 36.5755 21.0632C36.3947 20.9789 36.2097 20.9391 35.9132 20.9391L29.2175 20.9391Z" fill="white"></path>
-												</svg> <span class="truncate overflow-hidden sm:pl-2 xxs:pl-1">0.18731</span></span>
-										</td>
-										<td class="sm:px-3 xxs:px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full xxs:w-1/4 sm:w-1/5 sm:table-cell">
-											<span class="justify-center text-sm text-green-500 font-bold text-success truncate overflow-hidden w-full flex flex-row items-center align-middle">
-												Done</span>
-										</td>
-										<td class="sm:px-3 xxs:px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full sm:w-1/5 xxs:hidden xs:hidden sm:table-cell">
-											<span class="justify-center text-secondary-100 text-sm font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
-												21.08.2024</span>
-										</td>
-										<td class="sm:px-3 xxs:px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full xxs:w-1/4 sm:w-1/5">
-											<span class="justify-center text-sm text-secondary-100 font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
-												-</span>
-										</td>
-									</tr>
-									<tr class=" transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted border-tertiary-900">
-										<td class="sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full xxs:w-1/4 sm:w-1/5">
-											<span class="justify-start text-sm gap-2 font-sans text-green-500 font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
-												<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-arrow-down" class="svg-inline--fa fa-circle-arrow-down text-success w-5 h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-													<path fill="currentColor" d="M256 48a208 208 0 1 0 0 416 208 208 0 1 0 0-416zm0 464A256 256 0 1 1 256 0a256 256 0 1 1 0 512zM361 305l-88 88c-9.4 9.4-24.6 9.4-33.9 0l-88-88c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L232 136c0-13.3 10.7-24 24-24s24 10.7 24 24l0 182.1 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z">
-													</path>
-												</svg> <span class="truncate overflow-hidden sm:pl-2 pl-1">Cashback</span></span>
-										</td>
-										<td class="sm:px-3 xxs:px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full xxs:w-1/4 sm:w-1/5">
-											<span class="justify-start text-sm items-center font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
-												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 56 56" class="w-4 h-4 svg-inline--fa">
-													<circle cx="28" cy="28" r="28" fill="#0088CC"></circle>
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M20.2088 18.5044L35.9132 18.5043C36.4688 18.5043 37.024 18.5859 37.6042 18.8564C38.2997 19.1806 38.6685 19.6916 38.9269 20.0695C38.947 20.0989 38.9658 20.1292 38.9832 20.1602C39.287 20.701 39.4436 21.2849 39.4436 21.913C39.4436 22.5098 39.3016 23.16 38.9832 23.7267C38.9802 23.7322 38.9771 23.7375 38.974 23.7429L29.0522 40.7864C28.8334 41.1623 28.4307 41.3928 27.9958 41.3913C27.5609 41.3898 27.1598 41.1563 26.9437 40.7789L17.2041 23.7718C17.2013 23.7672 17.1985 23.7626 17.1957 23.7579C16.9728 23.3906 16.6281 22.8226 16.5678 22.0896C16.5124 21.4155 16.6639 20.7401 17.0026 20.1545C17.3413 19.5688 17.8512 19.1006 18.4645 18.814C19.1221 18.5067 19.7885 18.5044 20.2088 18.5044ZM26.7827 20.9391L20.2088 20.9391C19.7769 20.9391 19.6111 20.9657 19.4952 21.0199C19.3349 21.0947 19.2003 21.2178 19.1103 21.3734C19.0203 21.5291 18.9796 21.7095 18.9944 21.8901C19.0029 21.9936 19.0451 22.112 19.294 22.5225C19.2992 22.5311 19.3043 22.5398 19.3093 22.5485L26.7827 35.5984V20.9391ZM29.2175 20.9391V35.6629L36.864 22.5278C36.9503 22.371 37.0088 22.1444 37.0088 21.913C37.0088 21.7253 36.9699 21.5623 36.8829 21.3943C36.7916 21.263 36.736 21.1935 36.6895 21.1459C36.6496 21.1052 36.6189 21.0834 36.5755 21.0632C36.3947 20.9789 36.2097 20.9391 35.9132 20.9391L29.2175 20.9391Z" fill="white"></path>
-												</svg> <span class="truncate overflow-hidden sm:pl-2 xxs:pl-1">0.18731</span></span>
-										</td>
-										<td class="sm:px-3 xxs:px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full xxs:w-1/4 sm:w-1/5 sm:table-cell">
-											<span class="justify-center text-sm text-green-500 font-bold text-success truncate overflow-hidden w-full flex flex-row items-center align-middle">
-												Done</span>
-										</td>
-										<td class="sm:px-3 xxs:px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full sm:w-1/5 xxs:hidden xs:hidden sm:table-cell">
-											<span class="justify-center text-secondary-100 text-sm font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
-												21.08.2024</span>
-										</td>
-										<td class="sm:px-3 xxs:px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full xxs:w-1/4 sm:w-1/5">
-											<span class="justify-center text-sm text-secondary-100 font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
-												-</span>
-										</td>
-									</tr>
-								</tbody>
-							</table>
+										<tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted border-tertiary-900">
+											<td class="min-width-[120px] sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full w-1/4 sm:w-1/5">
+												<span class="justify-start text-sm gap-2 font-sans text-green-500 font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
+													<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-arrow-down" class="svg-inline--fa fa-circle-arrow-down text-success w-5 h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+														<path fill="currentColor" d="M256 48a208 208 0 1 0 0 416 208 208 0 1 0 0-416zm0 464A256 256 0 1 1 256 0a256 256 0 1 1 0 512zM361 305l-88 88c-9.4 9.4-24.6 9.4-33.9 0l-88-88c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L232 136c0-13.3 10.7-24 24-24s24 10.7 24 24l0 182.1 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z">
+														</path>
+													</svg> <span class=" sm:pl-2 pl-1">Cashback</span></span>
+											</td>
+											<td class="min-width-[120px] sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full w-1/4 sm:w-1/5">
+												<span class="justify-center text-sm items-center font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle gap-1">
+													<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 56 56" class="w-4 h-4 svg-inline--fa">
+														<circle cx="28" cy="28" r="28" fill="#0088CC"></circle>
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M20.2088 18.5044L35.9132 18.5043C36.4688 18.5043 37.024 18.5859 37.6042 18.8564C38.2997 19.1806 38.6685 19.6916 38.9269 20.0695C38.947 20.0989 38.9658 20.1292 38.9832 20.1602C39.287 20.701 39.4436 21.2849 39.4436 21.913C39.4436 22.5098 39.3016 23.16 38.9832 23.7267C38.9802 23.7322 38.9771 23.7375 38.974 23.7429L29.0522 40.7864C28.8334 41.1623 28.4307 41.3928 27.9958 41.3913C27.5609 41.3898 27.1598 41.1563 26.9437 40.7789L17.2041 23.7718C17.2013 23.7672 17.1985 23.7626 17.1957 23.7579C16.9728 23.3906 16.6281 22.8226 16.5678 22.0896C16.5124 21.4155 16.6639 20.7401 17.0026 20.1545C17.3413 19.5688 17.8512 19.1006 18.4645 18.814C19.1221 18.5067 19.7885 18.5044 20.2088 18.5044ZM26.7827 20.9391L20.2088 20.9391C19.7769 20.9391 19.6111 20.9657 19.4952 21.0199C19.3349 21.0947 19.2003 21.2178 19.1103 21.3734C19.0203 21.5291 18.9796 21.7095 18.9944 21.8901C19.0029 21.9936 19.0451 22.112 19.294 22.5225C19.2992 22.5311 19.3043 22.5398 19.3093 22.5485L26.7827 35.5984V20.9391ZM29.2175 20.9391V35.6629L36.864 22.5278C36.9503 22.371 37.0088 22.1444 37.0088 21.913C37.0088 21.7253 36.9699 21.5623 36.8829 21.3943C36.7916 21.263 36.736 21.1935 36.6895 21.1459C36.6496 21.1052 36.6189 21.0834 36.5755 21.0632C36.3947 20.9789 36.2097 20.9391 35.9132 20.9391L29.2175 20.9391Z" fill="white"></path>
+													</svg> <span class="truncate overflow-hidden sm:pl-2 pl-1">0.18731</span></span>
+											</td>
+											<td class="min-width-[120px] sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full w-1/4 sm:w-1/5 sm:table-cell">
+												<span class="justify-center text-sm text-green-500 font-bold text-success truncate overflow-hidden w-full flex flex-row items-center align-middle">
+													Done</span>
+											</td>
+											<td class="min-width-[120px] sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full sm:w-1/5 hidden xs:hidden sm:table-cell">
+												<span class="justify-center text-secondary-100 text-sm font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
+													21.08.2024</span>
+											</td>
+											<td class="min-width-[120px] sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full w-1/4 sm:w-1/5">
+												<span class="justify-center text-sm text-secondary-100 font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
+													-</span>
+											</td>
+										</tr>
+										<tr class=" transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted border-tertiary-900">
+											<td class=" min-width-[120px] sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full w-1/4 sm:w-1/5">
+												<span class="justify-start min-w-[120px] text-sm gap-2 font-sans text-green-500 font-medium  truncate overflow-hidden flex flex-row items-center align-middle">
+													<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-arrow-down" class="svg-inline--fa fa-circle-arrow-down text-success w-5 h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+														<path fill="currentColor" d="M256 48a208 208 0 1 0 0 416 208 208 0 1 0 0-416zm0 464A256 256 0 1 1 256 0a256 256 0 1 1 0 512zM361 305l-88 88c-9.4 9.4-24.6 9.4-33.9 0l-88-88c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L232 136c0-13.3 10.7-24 24-24s24 10.7 24 24l0 182.1 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z">
+														</path>
+													</svg> <span class="sm:pl-2 pl-1">Cashback</span></span>
+											</td>
+											<td class="min-width-[120px] sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full w-1/4 sm:w-1/5">
+												<span class="justify-center text-sm items-center font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle gap-1">
+													<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 56 56" class="w-4 h-4 svg-inline--fa">
+														<circle cx="28" cy="28" r="28" fill="#0088CC"></circle>
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M20.2088 18.5044L35.9132 18.5043C36.4688 18.5043 37.024 18.5859 37.6042 18.8564C38.2997 19.1806 38.6685 19.6916 38.9269 20.0695C38.947 20.0989 38.9658 20.1292 38.9832 20.1602C39.287 20.701 39.4436 21.2849 39.4436 21.913C39.4436 22.5098 39.3016 23.16 38.9832 23.7267C38.9802 23.7322 38.9771 23.7375 38.974 23.7429L29.0522 40.7864C28.8334 41.1623 28.4307 41.3928 27.9958 41.3913C27.5609 41.3898 27.1598 41.1563 26.9437 40.7789L17.2041 23.7718C17.2013 23.7672 17.1985 23.7626 17.1957 23.7579C16.9728 23.3906 16.6281 22.8226 16.5678 22.0896C16.5124 21.4155 16.6639 20.7401 17.0026 20.1545C17.3413 19.5688 17.8512 19.1006 18.4645 18.814C19.1221 18.5067 19.7885 18.5044 20.2088 18.5044ZM26.7827 20.9391L20.2088 20.9391C19.7769 20.9391 19.6111 20.9657 19.4952 21.0199C19.3349 21.0947 19.2003 21.2178 19.1103 21.3734C19.0203 21.5291 18.9796 21.7095 18.9944 21.8901C19.0029 21.9936 19.0451 22.112 19.294 22.5225C19.2992 22.5311 19.3043 22.5398 19.3093 22.5485L26.7827 35.5984V20.9391ZM29.2175 20.9391V35.6629L36.864 22.5278C36.9503 22.371 37.0088 22.1444 37.0088 21.913C37.0088 21.7253 36.9699 21.5623 36.8829 21.3943C36.7916 21.263 36.736 21.1935 36.6895 21.1459C36.6496 21.1052 36.6189 21.0834 36.5755 21.0632C36.3947 20.9789 36.2097 20.9391 35.9132 20.9391L29.2175 20.9391Z" fill="white"></path>
+													</svg> <span class="truncate overflow-hidden sm:pl-2 pl-1">0.18731</span></span>
+											</td>
+											<td class="min-width-[120px] sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full w-1/4 sm:w-1/5 sm:table-cell">
+												<span class="justify-center text-sm text-green-500 font-bold text-success truncate overflow-hidden w-full flex flex-row items-center align-middle">
+													Done</span>
+											</td>
+											<td class="min-width-[120px] sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full sm:w-1/5 hidden xs:hidden sm:table-cell">
+												<span class="justify-center text-secondary-100 text-sm font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
+													21.08.2024</span>
+											</td>
+											<td class="min-width-[120px] sm:px-3 px-2 align-middle [&amp;:has([role=checkbox])]:pr-0 truncate overflow-hidden h-[40px] w-full w-1/4 sm:w-1/5">
+												<span class="justify-center text-sm text-secondary-100 font-medium  truncate overflow-hidden w-full flex flex-row items-center align-middle">
+													-</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="mt-4 text-sm text-muted-foreground flex items-center justify-center">
+								<button type="button" tabindex="0" aria-label="Next" disabled="" data-melt-pagination-next="" data-pagination-next-button="" class="button button-primary px-4 py-2" data-button-root=""> <span>Load More</span> </button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1651,8 +1650,8 @@
 	</div>
 
 
-	<script src="https://telegram.org/js/telegram-web-app.js?_v=20240829171929"></script>
-	<script src="js/app.min.js?_v=20240829171929"></script>
+	<script src="https://telegram.org/js/telegram-web-app.js?_v=20240830210406"></script>
+	<script src="js/app.min.js?_v=20240830210406"></script>
 
 
 </body>
