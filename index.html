@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240830210406">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240909143231">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,25 +21,16 @@
 		<div class="wrapper-main">
 			<aside class="main-sidebar main-sidebar--left show">
 				<div class="main-sidebar__wrapper">
-					<div class="main-sidebar__header flex items-center justify-between gap-2 pb-3.5 border-b-[1px] border-solid border-secondary-900/50">
-						<a href="#" class="main-sidebar__logo inline-flex items-center gap-3">
-							<svg xmlns="http://www.w3.org/2000/svg" width="31" height="38" viewBox="0 0 41 48" fill="none">
-								<path d="M5.25601 17.9403C-0.256654 23.4352 -1.95172 30.2081 2.84606 35.7176C5.74979 39.0511 14.1367 41.9684 19.1151 36.1558C18.8276 40.2231 12.5264 46.0795 10.776 47.1092H13.2228H20.0363H26.8497L28.9133 47.0909C27.163 46.0576 21.2486 40.2231 20.9612 36.1558C25.9396 41.972 34.3265 39.0548 37.2302 35.7176C42.0243 30.2117 40.3293 23.4352 34.8203 17.9403C34.0427 17.1662 33.2726 16.4251 32.5135 15.6985C45.2007 31.2998 25.7811 45.1266 20.04 32.7639C14.3246 45.0791 -4.99548 31.4057 7.44855 15.8445C6.68945 16.5492 5.95247 17.2429 5.25601 17.9403Z" fill="url(#paint0_linear_121_7220)" />
-								<path d="M8.50243 16.3889C5.26705 19.9159 3.71938 24.0599 4.74379 27.8972C5.31127 25.6116 6.62311 23.3516 8.50243 21.3033C12.3937 17.0643 17.7737 12.8509 20.0326 5.859C22.542 12.756 26.9345 16.2574 31.5628 21.3033C33.4421 23.3516 34.7539 25.6116 35.3214 27.8972C36.3495 24.0599 34.7981 19.9159 31.5628 16.3889C26.9382 11.343 22.5457 7.84157 20.0363 0.94458C17.7737 7.9365 12.3937 12.1499 8.50243 16.3889Z" fill="url(#paint1_linear_121_7220)" />
-								<defs>
-									<linearGradient id="paint0_linear_121_7220" x1="20.0368" y1="15.6985" x2="20.0368" y2="47.1092" gradientUnits="userSpaceOnUse">
-										<stop stop-color="#EFBA6B" />
-										<stop offset="1" stop-color="#DC8D18" />
-									</linearGradient>
-									<linearGradient id="paint1_linear_121_7220" x1="20.0333" y1="0.94458" x2="20.0333" y2="27.8972" gradientUnits="userSpaceOnUse">
-										<stop stop-color="#EFBA6B" />
-										<stop offset="1" stop-color="#DC8D18" />
-									</linearGradient>
-								</defs>
-							</svg>
-							<span class="text-sm font-bold text-white tracking-wide">@CASINO</span>
+					<div class="main-sidebar__header relative items-center flex justify-between flex-col-reverse items-center pb-3.5 border-b-[1px] border-solid border-secondary-900/50">
+						<a href="#" class="main-sidebar__logo flex justify-center gap-3">
+							<img src="img/logo-text.png" class="max-w-[10rem] w-full object-cover" alt="Image">
+							<!-- <span class="text-sm font-bold text-white tracking-wide">@GOLDENDRAGON</span> -->
 						</a>
-						<button type="button" class="nav-button nav-button--md lg:!flex !hidden" data-toggle-sidebar="">
+						<a href="#" class="main-sidebar__logo--hide flex justify-center gap-3">
+							<img src="img/logo.png" class="max-w-[10rem] w-full object-cover" alt="Image">
+							<!-- <span class="text-sm font-bold text-white tracking-wide">@GOLDENDRAGON</span> -->
+						</a>
+						<button type="button" class="nav-button main-sidebar__header--close nav-button--md self-end lg:!flex !hidden absolute right-0 top-0" data-toggle-sidebar="">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 19" fill="none">
 								<path d="M8.04883 17.3633L1.52883 10.8433C0.758826 10.0733 0.758826 8.81332 1.52883 8.04332L8.04883 1.52332" stroke="#B3B0BE" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
 							</svg>
@@ -67,7 +58,7 @@
 								<li class="menu-dropdown">
 									<div class="flex flex-col gap-1" data-dropdown>
 										<a href="#" data-toggle="dropdown" class="menu-dropdown-button !inline-flex items-center justify-between
-                                        gap-2" aria-label="Casino">
+                                        gap-2" aria-label="GOLDENDRAGON">
 											<div class="flex gap-x-2 items-center">
 												<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 													<path d="M16.9688 3.08301L10.9354 2.01916C10.2568 1.89951 9.60969 2.35263 9.49003 3.03123L9.43294 3.35507C10.3055 3.46257 11.0426 4.09113 11.2747 4.95723L11.6434 6.33332C11.8387 6.24866 12.06 6.21816 12.2852 6.25788C12.7126 6.33326 13.0405 6.64085 13.1627 7.02794C13.4099 6.70598 13.8232 6.52907 14.2506 6.60444C14.8623 6.71232 15.2708 7.29566 15.1629 7.90738C14.9286 9.23657 13.5022 10.3049 12.8253 10.7443L13.8588 14.6013C13.9142 14.808 13.9373 15.0159 13.9322 15.2197L14.8017 15.373C15.4803 15.4927 16.1274 15.0396 16.2471 14.361L17.9808 4.52844C18.1005 3.84979 17.6474 3.20266 16.9688 3.08301Z" fill="#9092B2"></path>
@@ -87,18 +78,18 @@
 														<path d="M13.0893 8.1875C12.6186 8.1875 12.1614 8.30912 11.75 8.54168C11.3386 8.30912 10.8813 8.1875 10.4107 8.1875C8.82297 8.1875 7.53125 9.5739 7.53125 11.2781C7.53125 13.8376 9.46319 16 11.75 16C14.0368 16 15.9688 13.8376 15.9688 11.2781C15.9688 9.5739 14.677 8.1875 13.0893 8.1875Z">
 														</path>
 													</svg> <span class="text-sm text-tertiary-600 font-semibold">Slots</span></div>
-											</a> <a href="crypto-casino.html" class="flex items-center justify-between w-full rounded-lg px-3 py-2" aria-label="Crypto Casino">
+											</a> <a href="crypto-GOLDENDRAGON.html" class="flex items-center justify-between w-full rounded-lg px-3 py-2" aria-label="Crypto GOLDENDRAGON">
 												<div class="flex gap-x-2 items-center"><svg width="18" height="18" viewBox="0 0 18 18" fill="#9092B2" xmlns="http://www.w3.org/2000/svg">
 														<path d="M17.3334 6.08333C17.3334 8.8 15.3334 11.0417 12.7334 11.4333V11.3833C12.4751 8.15 9.85009 5.525 6.59174 5.26667H6.56674C6.95841 2.66667 9.20009 0.666666 11.9168 0.666666C14.9084 0.666666 17.3334 3.09167 17.3334 6.08333Z">
 														</path>
 														<path d="M11.4833 11.4833C11.275 8.84167 9.15834 6.725 6.51667 6.51667C6.37501 6.50833 6.22501 6.5 6.08334 6.5C3.09167 6.5 0.666672 8.925 0.666672 11.9167C0.666672 14.9083 3.09167 17.3333 6.08334 17.3333C9.07501 17.3333 11.5 14.9083 11.5 11.9167C11.5 11.775 11.4917 11.625 11.4833 11.4833ZM6.81667 12.65L6.08334 14L5.35001 12.65L4.00001 11.9167L5.35001 11.1833L6.08334 9.83333L6.81667 11.1833L8.16667 11.9167L6.81667 12.65Z">
 														</path>
-													</svg> <span class="text-sm text-tertiary-600 font-semibold">Crypto Casino</span></div>
-											</a> <a href="#" class="flex items-center justify-between w-full rounded-lg px-3 py-2" aria-label="Live Casino">
+													</svg> <span class="text-sm text-tertiary-600 font-semibold">Crypto casino</span></div>
+											</a> <a href="#" class="flex items-center justify-between w-full rounded-lg px-3 py-2" aria-label="Live GOLDENDRAGON">
 												<div class="flex gap-x-2 items-center"><svg width="18" height="18" viewBox="0 0 20 20" fill="#9092B2" xmlns="http://www.w3.org/2000/svg">
 														<path d="M18.3626 1.69951L11.1225 0.422898C10.3082 0.279311 9.53165 0.823061 9.38806 1.63737L9.31955 2.02599C10.3666 2.15499 11.2512 2.90926 11.5297 3.94857L11.9721 5.59989C12.2064 5.4983 12.472 5.4617 12.7423 5.50936C13.2552 5.59981 13.6487 5.96892 13.7952 6.43344C14.0919 6.04707 14.5879 5.83479 15.1008 5.92524C15.8348 6.05469 16.325 6.7547 16.1955 7.48876C15.9143 9.08379 14.2027 10.3658 13.3904 10.8931L14.6306 15.5214C14.697 15.7695 14.7248 16.0189 14.7186 16.2636L15.762 16.4475C16.5764 16.5911 17.3529 16.0474 17.4965 15.2331L19.577 3.43404C19.7206 2.61965 19.1769 1.8431 18.3626 1.69951Z" fill="#9092B2"></path>
 														<path d="M10.445 4.23947C10.2658 3.57054 9.66086 3.12936 8.99977 3.12939C8.87152 3.12939 8.74109 3.14601 8.61131 3.18077L1.51008 5.08352C0.711368 5.29753 0.237368 6.11852 0.45138 6.91723L3.55229 18.4901C3.73154 19.159 4.33646 19.6001 4.99754 19.6001C5.12579 19.6001 5.25622 19.5835 5.38597 19.5488L12.4872 17.646C13.2859 17.432 13.7599 16.611 13.5459 15.8123L10.445 4.23947ZM4.91913 12.1501C4.79872 12.0442 4.75376 11.8763 4.80506 11.7244L5.89091 8.50922C5.98173 8.24027 6.31706 8.15042 6.53021 8.33792L9.07818 10.5794C9.19859 10.6854 9.24356 10.8533 9.19226 11.0052L8.10641 14.2204C8.01558 14.4893 7.68026 14.5792 7.46711 14.3917L4.91913 12.1501Z" fill="#9092B2"></path>
-													</svg> <span class="text-sm text-tertiary-600 font-semibold">Live Casino</span></div>
+													</svg> <span class="text-sm text-tertiary-600 font-semibold">Live casino</span></div>
 											</a>
 										</div>
 									</div>
@@ -155,7 +146,7 @@
 										</svg> <span class="text-sm text-tertiary-600 font-semibold">Wallet</span></a>
 								</li>
 								<li>
-									<a href="#" class="flex gap-x-2 items-center" aria-label="Settings"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5">
+									<a href="#" data-popup="#popupSettings" class="flex gap-x-2 items-center" aria-label="Settings"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5">
 											<path fill-rule="evenodd" clip-rule="evenodd" d="M15.5198 13.0003C15.4752 12.7545 15.5053 12.5011 15.6061 12.2726C15.7022 12.0485 15.8616 11.8574 16.0649 11.7228C16.2681 11.5882 16.5063 11.516 16.7501 11.515H16.8183C17.2201 11.515 17.6055 11.3554 17.8896 11.0712C18.1738 10.7871 18.3334 10.4017 18.3334 9.99984C18.3334 9.59799 18.1738 9.21261 17.8896 8.92846C17.6055 8.64432 17.2201 8.48469 16.8183 8.48469H16.6895C16.4457 8.48371 16.2075 8.41148 16.0043 8.27688C15.801 8.14227 15.6416 7.95118 15.5455 7.72711V7.6665C15.4447 7.43801 15.4146 7.18454 15.4592 6.93879C15.5037 6.69303 15.6209 6.46626 15.7955 6.28772L15.841 6.24226C15.9819 6.10154 16.0936 5.93444 16.1699 5.7505C16.2461 5.56657 16.2854 5.36941 16.2854 5.17029C16.2854 4.97118 16.2461 4.77402 16.1699 4.59008C16.0936 4.40614 15.9819 4.23904 15.841 4.09832C15.7003 3.95745 15.5332 3.84569 15.3492 3.76944C15.1653 3.69319 14.9681 3.65395 14.769 3.65395C14.5699 3.65395 14.3727 3.69319 14.1888 3.76944C14.0049 3.84569 13.8378 3.95745 13.6971 4.09832L13.6516 4.14378C13.4731 4.31843 13.2463 4.43558 13.0005 4.48014C12.7548 4.5247 12.5013 4.49462 12.2728 4.39378C12.0487 4.29774 11.8576 4.13829 11.723 3.93504C11.5884 3.73179 11.5162 3.49361 11.5152 3.24984V3.18166C11.5152 2.77981 11.3556 2.39443 11.0715 2.11028C10.7873 1.82614 10.4019 1.6665 10.0001 1.6665C9.59824 1.6665 9.21285 1.82614 8.92871 2.11028C8.64456 2.39443 8.48493 2.77981 8.48493 3.18166V3.31044C8.48396 3.55422 8.41172 3.79239 8.27712 3.99564C8.14252 4.19889 7.95142 4.35835 7.72735 4.45438H7.66675C7.43825 4.55523 7.18478 4.58531 6.93903 4.54075C6.69327 4.49619 6.46651 4.37903 6.28796 4.20438L6.24251 4.15893C6.10179 4.01805 5.93469 3.9063 5.75075 3.83005C5.56681 3.7538 5.36965 3.71455 5.17054 3.71455C4.97142 3.71455 4.77426 3.7538 4.59032 3.83005C4.40639 3.9063 4.23928 4.01805 4.09857 4.15893C3.95769 4.29964 3.84594 4.46675 3.76969 4.65069C3.69344 4.83462 3.65419 5.03178 3.65419 5.2309C3.65419 5.43001 3.69344 5.62717 3.76969 5.81111C3.84594 5.99505 3.95769 6.16215 4.09857 6.30287L4.14402 6.34832C4.31867 6.52687 4.43583 6.75364 4.48039 6.99939C4.52495 7.24515 4.49487 7.49861 4.39402 7.72711C4.30744 7.96252 4.15205 8.16643 3.94804 8.31235C3.74402 8.45826 3.50083 8.53943 3.25008 8.54529H3.1819C2.78006 8.54529 2.39467 8.70492 2.11053 8.98907C1.82638 9.27322 1.66675 9.6586 1.66675 10.0604C1.66675 10.4623 1.82638 10.8477 2.11053 11.1318C2.39467 11.416 2.78006 11.5756 3.1819 11.5756H3.31069C3.55447 11.5766 3.79264 11.6488 3.99589 11.7834C4.19914 11.918 4.35859 12.1091 4.45463 12.3332C4.55547 12.5617 4.58555 12.8151 4.54099 13.0609C4.49643 13.3066 4.37928 13.5334 4.20463 13.712L4.15917 13.7574C4.0183 13.8981 3.90654 14.0652 3.83029 14.2492C3.75405 14.4331 3.7148 14.6303 3.7148 14.8294C3.7148 15.0285 3.75405 15.2257 3.83029 15.4096C3.90654 15.5935 4.0183 15.7606 4.15917 15.9014C4.29989 16.0422 4.46699 16.154 4.65093 16.2302C4.83487 16.3065 5.03203 16.3457 5.23114 16.3457C5.43026 16.3457 5.62742 16.3065 5.81135 16.2302C5.99529 16.154 6.16239 16.0422 6.30311 15.9014L6.34857 15.8559C6.52711 15.6812 6.75388 15.5641 6.99964 15.5195C7.24539 15.475 7.49886 15.5051 7.72735 15.6059C7.96276 15.6925 8.16667 15.8479 8.31259 16.0519C8.4585 16.2559 8.53967 16.4991 8.54554 16.7498V16.818C8.54554 17.2199 8.70517 17.6052 8.98931 17.8894C9.27346 18.1735 9.65884 18.3332 10.0607 18.3332C10.4625 18.3332 10.8479 18.1735 11.1321 17.8894C11.4162 17.6052 11.5758 17.2199 11.5758 16.818V16.6892C11.5768 16.4455 11.649 16.2073 11.7836 16.004C11.9183 15.8008 12.1093 15.6413 12.3334 15.5453C12.5619 15.4444 12.8154 15.4144 13.0611 15.4589C13.3069 15.5035 13.5337 15.6206 13.7122 15.7953L13.7577 15.8407C13.8984 15.9816 14.0655 16.0934 14.2494 16.1696C14.4334 16.2459 14.6305 16.2851 14.8296 16.2851C15.0287 16.2851 15.2259 16.2459 15.4098 16.1696C15.5938 16.0934 15.7609 15.9816 15.9016 15.8407C16.0425 15.7 16.1542 15.5329 16.2305 15.349C16.3067 15.1651 16.346 14.9679 16.346 14.7688C16.346 14.5697 16.3067 14.3725 16.2305 14.1886C16.1542 14.0046 16.0425 13.8375 15.9016 13.6968L15.8561 13.6514C15.6815 13.4728 15.5643 13.246 15.5198 13.0003ZM10 13C11.6569 13 13 11.6569 13 10C13 8.34315 11.6569 7 10 7C8.34315 7 7 8.34315 7 10C7 11.6569 8.34315 13 10 13Z" fill="#9092B2"></path>
 										</svg> <span class="text-sm text-tertiary-600 font-semibold">Settings</span></a>
 								</li>
@@ -221,10 +212,10 @@
 									</svg>
 									Sports</a>
 							</div>
-							<div class="header-page__actions">
-								<!-- <a href="#" class="button button-primary px-10 py-2">
-                  <span>Start</span>
-                </a> -->
+							<div class="header-page__actions flex items-center gap-3 ">
+								<button type="button" data-popup="#popupLogin" class="button button-primary px-10 py-2">
+									<span>Start</span>
+								</button>
 								<div class="user-header-info flex items-center gap-3" data-dropdown="">
 									<div class="balance flex items-center justify-center gap-3">
 										<button type="button" class="balance-toggle" data-toggle="dropdown">
@@ -507,7 +498,7 @@
 													<path d="M11.2414 13.0188C10.6534 12.5217 9.912 12.2249 9.10714 12.2249C8.54235 12.2249 7.99369 12.3708 7.5 12.6499C7.00631 12.3708 6.45761 12.2249 5.89286 12.2249C3.98756 12.2249 2.4375 13.8885 2.4375 15.9335C2.4375 19.005 4.75583 21.5999 7.5 21.5999C9.0057 21.5999 10.3831 20.8185 11.3198 19.606C10.6645 18.5118 10.3125 17.2451 10.3125 15.9335C10.3125 14.8397 10.6588 13.8297 11.2414 13.0188Z" fill="#637AF4"></path>
 													<path d="M13.8942 10.6556C13.9876 10.8301 14.0822 10.9979 14.1769 11.159C14.4101 11.1203 14.6491 11.0999 14.8924 11.0999C15.0928 11.0999 15.2926 11.1141 15.4906 11.1416C15.2846 10.8275 15.073 10.4763 14.8686 10.092C14.1497 8.73987 13.7146 7.37093 13.5643 5.99828C13.6711 6.14067 13.7892 6.27867 13.9201 6.40955C15.2385 7.72805 17.2747 7.76652 17.3607 7.7675C17.3629 7.76753 17.365 7.76753 17.3672 7.76753C17.5163 7.76753 17.6594 7.70832 17.7649 7.60276C17.872 7.4957 17.9314 7.34997 17.9296 7.19855C17.9287 7.11252 17.8902 5.07638 16.5717 3.75788C15.2579 2.44407 13.2318 2.40117 13.1323 2.39993C13.1206 2.39975 13.1088 2.40046 13.097 2.40106C13.0107 2.40485 12.9276 2.42851 12.8533 2.46972C11.4882 3.19505 10.3266 4.22101 9.4007 5.51948C8.66525 6.55088 8.07755 7.75411 7.65391 9.09578C7.40214 9.89322 7.23883 10.6415 7.13281 11.2805C7.25668 11.3172 7.37907 11.3591 7.49952 11.4066C7.75689 11.3051 8.02303 11.2282 8.29389 11.1767C8.39143 10.6505 8.52991 10.0578 8.72671 9.43452C9.47292 7.07105 10.7113 5.26797 12.415 4.05878C12.2501 6.266 12.753 8.52372 13.8942 10.6556Z" fill="#637AF4"></path>
 													<path d="M18.1071 12.2249C17.5423 12.2249 16.9937 12.3708 16.5 12.6499C16.0063 12.3708 15.4576 12.2249 14.8929 12.2249C12.9876 12.2249 11.4375 13.8885 11.4375 15.9335C11.4375 19.005 13.7558 21.5999 16.5 21.5999C19.2442 21.5999 21.5625 19.005 21.5625 15.9335C21.5625 13.8885 20.0124 12.2249 18.1071 12.2249Z" fill="#637AF4"></path>
-												</svg> </span>Casino</h1>
+												</svg> </span>GOLDENDRAGON</h1>
 									</a>
 									<div class="flex items-center gap-4">
 										<a href="#" class="view-all text-sm font-bold text-primary transition-colors hover:text-primary-600">
@@ -533,7 +524,7 @@
 											<div class="home-row__slide swiper-slide game">
 												<a href="game-page.html" class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Jungle Jim - El Dorado
@@ -545,7 +536,7 @@
 											<div class="home-row__slide swiper-slide game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Jungle Jim - El Dorado
@@ -557,7 +548,7 @@
 											<div class="home-row__slide swiper-slide game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Jungle Jim - El Dorado
@@ -569,7 +560,7 @@
 											<div class="home-row__slide swiper-slide game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Jungle Jim - El Dorado
@@ -581,7 +572,7 @@
 											<div class="home-row__slide swiper-slide game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Jungle Jim - El Dorado
@@ -593,7 +584,7 @@
 											<div class="home-row__slide swiper-slide game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Jungle Jim - El Dorado
@@ -605,7 +596,7 @@
 											<div class="home-row__slide swiper-slide game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Jungle Jim - El Dorado
@@ -940,7 +931,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -951,7 +942,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_thunderstruck.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_thunderstruck.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -962,7 +953,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/Pistoleras-Logo.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/Pistoleras-Logo.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -973,7 +964,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_playboy.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_playboy.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -984,7 +975,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_highsociety.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_highsociety.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -995,7 +986,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_avalon.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_avalon.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1006,7 +997,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_retroreels-extremeheat.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_retroreels-extremeheat.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1017,7 +1008,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_theratpack.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_theratpack.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1028,7 +1019,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/evolution/evo_livebaccaratlobby.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/evolution/evo_livebaccaratlobby.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1039,7 +1030,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/evolution/evo_liveblackjacklobby.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/evolution/evo_liveblackjacklobby.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1050,7 +1041,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/evolution/roulette-lobby-thumb.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/evolution/roulette-lobby-thumb.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1061,7 +1052,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/pragmatic/GatesOfOlympus_Thumbnail.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/pragmatic/GatesOfOlympus_Thumbnail.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1072,7 +1063,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/pragmatic/pgp_sugarrush1000.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/pragmatic/pgp_sugarrush1000.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1083,7 +1074,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/pgsoft/pgs_fortunetiger.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/pgsoft/pgs_fortunetiger.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1094,7 +1085,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/pragmatic/the-dog-house-thumb.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/pragmatic/the-dog-house-thumb.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1105,7 +1096,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/relax/rlx_moneytrain4.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/relax/rlx_moneytrain4.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1116,7 +1107,7 @@
 											<div class="item game">
 												<button class="flex flex-col gap-y-2.5 flex-none w-[150px] min-h-[170px]">
 													<div class="overflow-hidden rounded-xl w-full">
-														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/playngo/png_moonprincess-poweroflove.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+														<img class="h-28 rounded-xl cursor-pointer" src="https://game-preview-content-cdn.b-cdn.net/playngo/png_moonprincess-poweroflove.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 													</div>
 													<div class="flex flex-col gap-y-1 items-start justify-start">
 														<p class="text-white game-name text-sm font-semibold line-clamp-1 text-left">Thunderstruck
@@ -1200,7 +1191,7 @@
 								<div class="home-row__header flex items-center justify-between flex-wrap gap-4">
 									<h1 class="font-semibold text-white xxs:text-base sm:text-lg flex flex-row items-center gap-2"><svg slot="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M21.5659 9.48852L19.3361 18.3071C19.2712 18.5625 19.1258 18.7886 18.9226 18.9501C18.7195 19.1117 18.4699 19.1995 18.213 19.2H5.79092C5.534 19.1995 5.28447 19.1117 5.08129 18.9501C4.87811 18.7886 4.73273 18.5625 4.66785 18.3071L2.43799 9.48852C2.38377 9.27625 2.38764 9.05273 2.44919 8.84258C2.51074 8.63243 2.62756 8.44382 2.7868 8.29753C2.94603 8.15124 3.14149 8.05295 3.35163 8.0135C3.56176 7.97405 3.77843 7.99496 3.97773 8.07393L7.67246 9.53534C7.70983 9.55026 7.75087 9.55247 7.78955 9.54163C7.82823 9.5308 7.86249 9.50749 7.88731 9.47514L11.0872 5.26149C11.1952 5.11787 11.3339 5.00159 11.4924 4.92159C11.651 4.84159 11.8253 4.79999 12.002 4.79999C12.1786 4.79999 12.3529 4.84159 12.5115 4.92159C12.6701 5.00159 12.8087 5.11787 12.9167 5.26149L16.1166 9.47514C16.1414 9.50749 16.1757 9.5308 16.2144 9.54163C16.2531 9.55247 16.2941 9.55026 16.3315 9.53534L20.0262 8.07393C20.2254 7.99843 20.4409 7.98009 20.6495 8.02088C20.8581 8.06167 21.0519 8.16006 21.2102 8.30547C21.3685 8.45089 21.4852 8.63785 21.5479 8.84628C21.6106 9.0547 21.6168 9.27673 21.5659 9.48852Z" fill="#9092B2"></path>
-										</svg>Live Casino</h1>
+										</svg>Live GOLDENDRAGON</h1>
 									<div class="flex items-center gap-4">
 
 										<div class="slider-navigation inline-flex gap-1 items-center">
@@ -1220,7 +1211,7 @@
 								<div class="home-row__body">
 									<div class="home-row__slider swiper rounded-xl">
 										<div class="home-row__wrapper swiper-wrapper">
-											<button class="swiper-slide live-casino"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-casino/blackjack_bombay.png" alt="blackjack_bombay"></button> <button class="swiper-slide live-casino"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-casino/baccarat_evolution.png" alt="baccarat_evolution"></button> <button class="swiper-slide live-casino"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-casino/teenpatti_bombay.png" alt="teenpatti_bombay"></button> <button class="swiper-slide live-casino"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-casino/poker_evolution.png" alt="poker_evolution"></button> <button class="swiper-slide live-casino"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-casino/roulette_bombay.png" alt="roulette_bombay"></button> <button class="swiper-slide live-casino"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-casino/entertainment_evolution.png" alt="entertainment_evolution"></button>
+											<button class="swiper-slide live-GOLDENDRAGON"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-GOLDENDRAGON/blackjack_bombay.png" alt="blackjack_bombay"></button> <button class="swiper-slide live-GOLDENDRAGON"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-GOLDENDRAGON/baccarat_evolution.png" alt="baccarat_evolution"></button> <button class="swiper-slide live-GOLDENDRAGON"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-GOLDENDRAGON/teenpatti_bombay.png" alt="teenpatti_bombay"></button> <button class="swiper-slide live-GOLDENDRAGON"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-GOLDENDRAGON/poker_evolution.png" alt="poker_evolution"></button> <button class="swiper-slide live-GOLDENDRAGON"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-GOLDENDRAGON/roulette_bombay.png" alt="roulette_bombay"></button> <button class="swiper-slide live-GOLDENDRAGON"><img class="min-h-[186px] min-w-[188px] h-[186px] w-[188px]" src="https://whale.io/live-GOLDENDRAGON/entertainment_evolution.png" alt="entertainment_evolution"></button>
 										</div>
 									</div>
 								</div>
@@ -1284,7 +1275,7 @@
 							<div class="grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 gap-4">
 								<div class="flex flex-col gap-5 col-span-2">
 									<div class="footer__logo">
-										<span class="text-xl font-bold text-white tracking-widest font-serif block mb-5">@CASINO</span>
+										<span class="text-xl font-bold text-white tracking-widest font-serif block mb-5">@GOLDENDRAGON</span>
 										<div class="footer__logo-text mt-3 max-w-72">
 											<p class="text-secondary-800 text-xs">
 												Whale.io is owned and operated by YGF Entertainment B.V. (Korporaalweg 10, Willemstad, Curaçao).
@@ -1336,11 +1327,11 @@
 									</div>
 								</div>
 								<div class="footer__menu">
-									<span class="font-bold text-lg text-white block mb-3"> Casino
+									<span class="font-bold text-lg text-white block mb-3"> GOLDENDRAGON
 
 									</span>
 									<ul class="flex flex-col gap-3">
-										<li><a href="#" class="text-sm text-tertiary-800 font-bold hover:text-primary transition-colors">Casino Home</a></li>
+										<li><a href="#" class="text-sm text-tertiary-800 font-bold hover:text-primary transition-colors">GOLDENDRAGON Home</a></li>
 									</ul>
 								</div>
 								<div class="footer__menu">
@@ -1530,7 +1521,7 @@
 									<path d="M18.3626 1.6996L11.1225 0.42299C10.3082 0.279402 9.53168 0.823152 9.38809 1.63746L9.31958 2.02608C10.3666 2.15508 11.2512 2.90935 11.5297 3.94866L11.9722 5.59998C12.2064 5.49839 12.472 5.46179 12.7423 5.50945C13.2552 5.5999 13.6487 5.96901 13.7953 6.43353C14.0919 6.04716 14.5879 5.83488 15.1008 5.92533C15.8349 6.05478 16.325 6.75479 16.1956 7.48885C15.9143 9.08388 14.2027 10.3659 13.3904 10.8932L14.6306 15.5215C14.6971 15.7696 14.7248 16.019 14.7187 16.2637L15.7621 16.4476C16.5764 16.5912 17.3529 16.0475 17.4965 15.2332L19.577 3.43413C19.7207 2.61974 19.1769 1.84319 18.3626 1.6996Z" fill="#9092B2"></path>
 									<path d="M10.445 4.23923C10.2658 3.5703 9.66088 3.12911 8.9998 3.12915C8.87155 3.12915 8.74112 3.14576 8.61134 3.18053L1.51011 5.08328C0.711398 5.29729 0.237398 6.11828 0.451411 6.91699L3.55232 18.4898C3.73157 19.1588 4.33649 19.5999 4.99757 19.5999C5.12582 19.5999 5.25625 19.5833 5.386 19.5485L12.4872 17.6457C13.2859 17.4317 13.7599 16.6107 13.5459 15.812L10.445 4.23923ZM4.91916 12.1499C4.79875 12.044 4.75379 11.8761 4.80509 11.7242L5.89094 8.50898C5.98176 8.24003 6.31709 8.15018 6.53024 8.33768L9.07821 10.5792C9.19862 10.6851 9.24359 10.853 9.19229 11.0049L8.10644 14.2201C8.01561 14.4891 7.68028 14.5789 7.46714 14.3914L4.91916 12.1499Z" fill="#9092B2"></path>
 								</svg>
-								<span class="flex items-center gap-1 text-[12px] text-secondary-600 font-semibold">Casino</span></a>
+								<span class="flex items-center gap-1 text-[12px] text-secondary-600 font-semibold">GOLDENDRAGON</span></a>
 						</div>
 						<div class="rounded-full flex items-center justify-center "><a href="#" class="flex items-center flex-col gap-2 min-h-[50px] justify-between"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
 									<path d="M11 0.200012C5.04516 0.200012 0.200012 5.04516 0.200012 11C0.200012 16.9549 5.04516 21.8 11 21.8C16.9549 21.8 21.8 16.9549 21.8 11C21.8 5.04516 16.9549 0.200012 11 0.200012ZM11.6858 3.70866L14.4628 2.21556C16.0004 2.82441 17.3423 3.82206 18.3629 5.09106L17.7014 8.14476L15.5833 9.18291L11.6858 6.34386V3.70866ZM7.56021 2.20746L10.3372 3.70596V6.34386L6.44241 9.18291L4.31346 8.14341L3.65196 5.07081C4.67526 3.80451 6.01986 2.81226 7.56021 2.20746ZM3.21051 16.3379C2.32896 15.0554 1.75521 13.5475 1.59726 11.918L3.88281 9.43536L5.96721 10.4546L7.53726 14.9137L6.21021 16.504L3.21051 16.3379ZM13.4071 20.1274C12.6362 20.3312 11.833 20.45 11 20.45C9.99291 20.45 9.02361 20.288 8.11236 19.9951L7.26321 17.3518L8.61726 15.725H13.3882L14.7179 17.2991L13.4071 20.1274ZM15.7709 16.4581L14.4655 14.9123L16.0571 10.4546L18.1321 9.43806L20.4041 11.9194C20.2678 13.3247 19.8155 14.6356 19.1284 15.7952L15.7709 16.4581Z" fill="#9092B2"></path>
@@ -1884,6 +1875,124 @@
 			</div>
 		</div>
 	</div>
+	<div id="popupSettings" aria-hidden="true" class="popup popup-md popup-wallet">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header flex items-center justify-between border-b-[1px] border-solid border-secondary-900/50 pb-4">
+					<h2 class="text-3xl font-bold font-serif">
+						Settings
+					</h2>
+					<button data-close type="button" class="popup__close nav-button nav-button--md">
+						<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square" />
+							<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square" />
+						</svg>
+					</button>
+				</div>
+				<div class="popup__body border-b border-solid border-secondary-900/50">
+					<div data-tabs class="tabs flex sm:flex-row flex-col sm:gap-4 ">
+						<nav data-tabs-titles class="sm:flex-col self-start sm:w-auto w-full !gap-3 min-w-[12.5rem] pb-4 pt-5 !items-start tabs__navigation sm:max-w-96 tabs-navigation overflow-auto">
+							<button type="button" class="tabs__title max-h-[2.5rem] w-full sm:!min-w-0 !min-w-34 flex-1 tabs-button _tab-active">
+								<svg width="22" height="22" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor">
+									<path d="M4.93008 16.6985C5.43702 15.5042 6.62061 14.6665 7.99984 14.6665H12.9998C14.3791 14.6665 15.5626 15.5042 16.0696 16.6985M13.8332 8.4165C13.8332 10.2575 12.3408 11.7498 10.4998 11.7498C8.65889 11.7498 7.1665 10.2575 7.1665 8.4165C7.1665 6.57555 8.65889 5.08317 10.4998 5.08317C12.3408 5.08317 13.8332 6.57555 13.8332 8.4165ZM18.8332 10.4998C18.8332 15.1022 15.1022 18.8332 10.4998 18.8332C5.89746 18.8332 2.1665 15.1022 2.1665 10.4998C2.1665 5.89746 5.89746 2.1665 10.4998 2.1665C15.1022 2.1665 18.8332 5.89746 18.8332 10.4998Z" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+								</svg>
+								Account info
+							</button>
+							<button type="button" class="tabs__title max-h-[2.5rem] w-full sm:!min-w-0 !min-w-34 flex-1 tabs-button">
+								<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor">
+									<path d="M12.1668 9.6665H7.16683M8.8335 12.9998H7.16683M13.8335 6.33317H7.16683M17.1668 6.1665V14.8332C17.1668 16.2333 17.1668 16.9334 16.8943 17.4681C16.6547 17.9386 16.2722 18.321 15.8018 18.5607C15.267 18.8332 14.567 18.8332 13.1668 18.8332H7.8335C6.43336 18.8332 5.7333 18.8332 5.19852 18.5607C4.72811 18.321 4.34566 17.9386 4.10598 17.4681C3.8335 16.9334 3.8335 16.2333 3.8335 14.8332V6.1665C3.8335 4.76637 3.8335 4.06631 4.10598 3.53153C4.34566 3.06112 4.72811 2.67867 5.19852 2.43899C5.7333 2.1665 6.43336 2.1665 7.8335 2.1665H13.1668C14.567 2.1665 15.267 2.1665 15.8018 2.43899C16.2722 2.67867 16.6547 3.06112 16.8943 3.53153C17.1668 4.06631 17.1668 4.76637 17.1668 6.1665Z" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+								</svg>
+								Verification
+							</button>
+						</nav>
+						<div data-tabs-body class="tabs__content w-full sm:p-4 pr-0 sm:border-l border-solid border-secondary-900/50">
+							<div class="tabs__body account-info-body">
+								<div class="account-info__row">
+									<div class="hidden w-full md:inline-flex flex justify-start items-center gap-2 font-bold text-xl mb-4">
+										<svg width="24" class="text-primary" height="24" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.93008 16.6985C5.43702 15.5042 6.62061 14.6665 7.99984 14.6665H12.9998C14.3791 14.6665 15.5626 15.5042 16.0696 16.6985M13.8332 8.4165C13.8332 10.2575 12.3408 11.7498 10.4998 11.7498C8.65889 11.7498 7.1665 10.2575 7.1665 8.4165C7.1665 6.57555 8.65889 5.08317 10.4998 5.08317C12.3408 5.08317 13.8332 6.57555 13.8332 8.4165ZM18.8332 10.4998C18.8332 15.1022 15.1022 18.8332 10.4998 18.8332C5.89746 18.8332 2.1665 15.1022 2.1665 10.4998C2.1665 5.89746 5.89746 2.1665 10.4998 2.1665C15.1022 2.1665 18.8332 5.89746 18.8332 10.4998Z" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg> Account info
+									</div>
+
+
+									<div class="w-full mb-6 flex flex-col p-4 order rounded-2xl bg-gradient-to-b from-[rgb(42,42,50)] to-[rgb(23,22,28)]">
+										<div class="mb-4 font-bold text-base text-white">Profile info</div>
+										<div class="flex gap-4"><img class="rounded-full" width="64px" height="64px" src="https://api.crashgame247.io/users/profile-picture?id=5796969158" alt="Img">
+											<div class="flex flex-col gap-1 justify-center">
+												<div class="font-semibold text-lg text-white leading-[1]">Alex</div>
+												<div class="font-medium text-base">User ID: <span class="font-medium text-primary font-serif">5796969158</span></div>
+											</div>
+										</div>
+									</div>
+
+									<form action="#" class="form" method="POST">
+
+										<div class="form__row flex gap-3 flex-col">
+											<div><label data-melt-label="" data-label-root="" class="text-sm font-bold mb-2 leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-white sm:text-[16px] text-sm" for="withdrawal-address">Email Verification
+												</label>
+
+												<input class="input" name="withdrawal-address" id="withdrawal-address" placeholder="Enter your address">
+											</div>
+											<div><label data-melt-label="" data-label-root="" class="text-sm font-bold mb-2 leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-white sm:text-[16px] text-sm" for="withdrawal-address">Language
+												</label>
+
+												<div class="flex flex-col gap-y-2 switcher-lang relative" data-dropdown="">
+													<button type="button" data-toggle="dropdown" class="switcher-lang__toggle flex gap-x-2 items-center justify-between px-3 py-2.5 min-h-[50px] bg-tertiary rounded-lg hover:bg-tertiary-900/50 transition-colors">
+														<div class="flex gap-x-2 items-center"><span class="text-sm text-white font-semibold">English</span></div> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+															<path d="M15 7.5L10 12.5L5 7.5" stroke="#707290" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+														</svg>
+													</button>
+													<div data-dropdown-menu="" class="z-30 switcher-lang__list mb-[3.1rem] bottom-0 w-36 absolute flex flex-col gap-y-0 px-1 py-2 w-full bg-tertiary rounded-lg"><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">English</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">Русский</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">Español</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">Português</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">日本語</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">中文</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">한국어</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">Türkçe</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">عربي</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">Shqip</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">Tiếng Việt</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">Bahasa Indonesia</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">پارسی</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">Français</span> </button><button class="flex justify-start w-full px-2.5 py-2 hover:bg-secondary-900/25 rounded-md"><span class="text-sm font-medium">O'zbek</span> </button></div>
+												</div>
+											</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="tabs__body verification-body">
+							<div class="verification-body__row">
+								<div class="hidden w-full md:inline-flex flex justify-start items-center gap-2 font-bold text-xl mb-4">
+									<svg width="24" class="text-primary" height="24" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12.1668 9.6665H7.16683M8.8335 12.9998H7.16683M13.8335 6.33317H7.16683M17.1668 6.1665V14.8332C17.1668 16.2333 17.1668 16.9334 16.8943 17.4681C16.6547 17.9386 16.2722 18.321 15.8018 18.5607C15.267 18.8332 14.567 18.8332 13.1668 18.8332H7.8335C6.43336 18.8332 5.7333 18.8332 5.19852 18.5607C4.72811 18.321 4.34566 17.9386 4.10598 17.4681C3.8335 16.9334 3.8335 16.2333 3.8335 14.8332V6.1665C3.8335 4.76637 3.8335 4.06631 4.10598 3.53153C4.34566 3.06112 4.72811 2.67867 5.19852 2.43899C5.7333 2.1665 6.43336 2.1665 7.8335 2.1665H13.1668C14.567 2.1665 15.267 2.1665 15.8018 2.43899C16.2722 2.67867 16.6547 3.06112 16.8943 3.53153C17.1668 4.06631 17.1668 4.76637 17.1668 6.1665Z" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg>
+									Verification
+								</div>
+
+
+								<div class="flex flex-col gap-4 items-center justify-between">
+									<div class="px-4 py-4 w-full rounded-2xl bg-gradient-to-b from-[rgb(42,42,50)] to-[rgb(23,22,28)] flex flex-col gap-y-2 items-center">
+										<div class="w-12 h-12 bg-[#637AF410] rounded-full flex justify-center items-center"><svg class="text-primary" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M20.5 10V6.8C20.5 5.11984 20.5 4.27976 20.173 3.63803C19.8854 3.07354 19.4265 2.6146 18.862 2.32698C18.2202 2 17.3802 2 15.7 2H9.3C7.61984 2 6.77976 2 6.13803 2.32698C5.57354 2.6146 5.1146 3.07354 4.82698 3.63803C4.5 4.27976 4.5 5.11984 4.5 6.8V17.2C4.5 18.8802 4.5 19.7202 4.82698 20.362C5.1146 20.9265 5.57354 21.3854 6.13803 21.673C6.77976 22 7.61984 22 9.3 22H13M18.5 21C18.5 21 21.5 19.5701 21.5 17.4252V14.9229L19.3124 14.1412C18.7868 13.9529 18.212 13.9529 17.6864 14.1412L15.5 14.9229V17.4252C15.5 19.5701 18.5 21 18.5 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+											</svg></div>
+										<div class="font-bold text-lg  text-white">Level 1</div>
+										<div class="text-center font-bold text-base text-tertiary-700 mb-4">Enable <span class="text-white">Two-factor</span> to protect your
+											account from unauthorized access.</div> <button type="button" tabindex="0" class="inline-flex items-center py-2 justify-center text-base font-bold mb-3 button button-primary w-full"> <span>Verify Now</span></button>
+										<div class="flex gap-2 items-center font-medium text-ase text-tertiary-700"><svg width="18" height="18" class="text-primary" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9 4.5V9L12 10.5M16.5 9C16.5 13.1421 13.1421 16.5 9 16.5C4.85786 16.5 1.5 13.1421 1.5 9C1.5 4.85786 4.85786 1.5 9 1.5C13.1421 1.5 16.5 4.85786 16.5 9Z" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round">
+												</path>
+											</svg> Review time: <span class="text-tertiary-500 font-bold">few mins</span></div>
+									</div>
+									<div class="px-4 py-4 w-full rounded-2xl bg-gradient-to-b from-[rgb(42,42,50)] to-[rgb(23,22,28)] flex flex-col gap-y-2 items-center">
+										<div class="w-12 h-12 bg-[#637AF410] rounded-full flex justify-center items-center"><svg width="28" class="text-primary" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M15.5 11H9.5M11.5 15H9.5M17.5 7H9.5M21.5 10V6.8C21.5 5.11984 21.5 4.27976 21.173 3.63803C20.8854 3.07354 20.4265 2.6146 19.862 2.32698C19.2202 2 18.3802 2 16.7 2H10.3C8.61984 2 7.77976 2 7.13803 2.32698C6.57354 2.6146 6.1146 3.07354 5.82698 3.63803C5.5 4.27976 5.5 5.11984 5.5 6.8V17.2C5.5 18.8802 5.5 19.7202 5.82698 20.362C6.1146 20.9265 6.57354 21.3854 7.13803 21.673C7.77976 22 8.61984 22 10.3 22H14M19.5 21C19.5 21 22.5 19.5701 22.5 17.4252V14.9229L20.3124 14.1412C19.7868 13.9529 19.212 13.9529 18.6864 14.1412L16.5 14.9229V17.4252C16.5 19.5701 19.5 21 19.5 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+											</svg></div>
+										<div class="font-bold text-lg  text-white">Level 1</div>
+										<div class="text-center font-bold text-base text-tertiary-700 mb-4">Enable <span class="text-white">Two-factor</span> to protect your
+											account from unauthorized access.</div> <button type="button" disabled tabindex="0" class="inline-flex items-center py-2 justify-center text-base font-bold mb-3 button button-primary w-full"> <span>Finish Basic Verification</span></button>
+										<div class="flex gap-2 items-center font-medium text-ase text-tertiary-700"><svg width="18" height="18" class="text-primary" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9 4.5V9L12 10.5M16.5 9C16.5 13.1421 13.1421 16.5 9 16.5C4.85786 16.5 1.5 13.1421 1.5 9C1.5 4.85786 4.85786 1.5 9 1.5C13.1421 1.5 16.5 4.85786 16.5 9Z" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round">
+												</path>
+											</svg> Review time: <span class="text-tertiary-500 font-bold">1 - 5 days</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
 	<div id="popupProfile" aria-hidden="true" class="popup popup-md popup-profile">
 		<div class="popup__wrapper">
 			<div class="popup__content">
@@ -1986,7 +2095,7 @@
 								<div class="game">
 									<button class="flex flex-col items-center justify-center gap-y-2.5 flex-none  min-h-[50px]">
 										<div class="overflow-hidden rounded-xl w-full flex items-center justify-center">
-											<img class="h-16 w-[60px] rounded-lg cursor-pointer object-cover" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="Casinomgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
+											<img class="h-16 w-[60px] rounded-lg cursor-pointer object-cover" src="https://game-preview-content-cdn.b-cdn.net/microgaming/mgg_junglejim-eldorado.jpg" id="GOLDENDRAGONmgg_junglejim-eldorado" alt="Jungle Jim - El Dorado">
 										</div>
 										<div class="flex flex-col gap-y-1 items-center justify-center">
 											<p class="text-white text-sm font-semibold text-left">Jungle Jim - El Dorado
@@ -2305,6 +2414,42 @@
 			</div>
 		</div>
 	</div>
+	<div id="popupLogin" aria-hidden="true" class="popup popup-md popup-start-play">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup-start-play__body">
+					<div class="popup-start-play__header mb-5">
+						<div class="pb-2">
+							<div class="logo mb-6 flex items-center justify-center">
+								<img src="img/logo.png" class="max-w-[12.5rem] object-cover w-full" alt="Image">
+							</div>
+							<div class="text-4xl font-bold uppercase text-center"><span class="text-primary">@</span><span class="font-black ">GOLDENDRAGON</span></div>
+						</div>
+						<div class="text-center flex flex-col gap-5 mb-8 mt-5 py-7 px-5 order rounded-2xl bg-gradient-to-b from-[rgb(42,42,50)] to-[rgb(23,22,28)]">
+							<div>
+								<h4 class="sm:text-3xl text-2xl font-bold mb-2">Welcome to <span class="text-primary font-bold">@</span><span class="font-black">GOLDENDRAGON!</span></h4>
+								<p class="text-tertiary-700 sm:text-[18px] text-base font-medium">
+
+									Choose below your preferred authentication method.
+								</p>
+							</div>
+							<div class="action-buttons flex items-cente flex-col gap-3">
+								<button type="button" tabindex="0" class="items-center justify-center rounded-md sm:text-lg text-base font-bold whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[radial-gradient(50%_1007.51%_at_50%_51.11%,_#44a3dd,_#59c0ff)] text-white active:opacity-90 sm:rounded-lg px-5 py-4 flex gap-2 w-full"> <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M2.59992 9.94585C6.89488 7.97019 9.7588 6.66767 11.1919 6.03835C15.2833 4.24156 16.1335 3.92943 16.6876 3.91901C16.8096 3.91686 17.082 3.94875 17.2585 4.09998C17.4076 4.22767 17.4487 4.40018 17.4683 4.52124C17.4879 4.64231 17.5123 4.91811 17.4929 5.13361C17.2712 7.59333 16.3117 13.5623 15.8237 16.3171C15.6172 17.4829 15.2105 17.8737 14.8168 17.912C13.9613 17.995 13.3116 17.315 12.4829 16.7414C11.1863 15.844 10.4537 15.2854 9.19507 14.4096C7.74043 13.3976 8.68333 12.8412 9.5124 11.9322C9.72933 11.6943 13.4989 8.07408 13.5719 7.74565C13.5811 7.70454 13.5895 7.55152 13.5033 7.47071C13.4172 7.38981 13.2901 7.41744 13.1984 7.43946C13.0683 7.47057 10.9968 8.91621 6.98389 11.7762C6.3959 12.2025 5.86333 12.4103 5.38616 12.3993C4.86012 12.3873 3.84822 12.0854 3.09598 11.8272C2.17333 11.5104 1.44002 11.3431 1.50388 10.8053C1.53713 10.5251 1.90248 10.2387 2.59992 9.94585Z" fill="#FFFFFF"></path>
+									</svg> Sign up via Telegram</button>
+								<button type="button" tabindex="0" class="items-center justify-center rounded-md sm:text-lg text-base font-bold whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-gradient-to-r from-[#D03D30] to-[#F36154] sm:rounded-lg px-5 py-4 flex gap-2 w-full"> <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M13.2347 6.73893C12.5714 6.12889 11.4082 5.39889 9.68374 5.39889C7.25519 5.39889 5.19399 6.96891 4.44903 9.1389L4.44893 9.13882L4.44893 9.1389C4.26526 9.6989 4.15306 10.2989 4.15306 10.9189C4.15306 11.5389 4.26526 12.1389 4.45913 12.6989L4.45923 12.6989C5.19399 14.8689 7.25519 16.4389 9.68374 16.4389C11.051 16.4389 12.0918 16.0689 12.8673 15.5389L12.8673 15.5389C14.0919 14.6989 14.6429 13.4489 14.7449 12.6189H9.6837V9.27891H18.3061C18.4387 9.8389 18.5 10.3789 18.5 11.1189C18.5 13.8589 17.5 16.1689 15.7653 17.7389L15.7653 17.7389C14.2449 19.1189 12.1633 19.9189 9.68374 19.9189C6.09189 19.9189 2.98985 17.8989 1.47967 14.9589L1.47956 14.9589C0.857145 13.7389 0.5 12.3689 0.5 10.9189C0.5 9.46892 0.857145 8.09889 1.47956 6.87888L1.4797 6.87881C2.98989 3.93887 6.09191 1.91891 9.68374 1.91891C12.1633 1.91891 14.2348 2.80892 15.8265 4.25891L13.2347 6.73893Z" fill="#FFFFFF"></path>
+									</svg> Sign up via Email</button>
+							</div>
+						</div>
+						<p class="text-tertiary-700 text-center sm:text-base text-sm font-bold">
+							By accessing the site, I attest that I am at least <span class="text-white">18 years old</span> and have read the Terms and Conditions.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div id="preloader">
 		<script>
@@ -2349,7 +2494,7 @@
 					}
 					.preloader__logo {
 						width: min(29vmin, 15vmax);
-						height: min(39vmin, 23vmax);
+						height: min(28vmin, 23vmax);
 						position: relative;
 						display: flex;
 						flex-direction: column;
@@ -2401,11 +2546,11 @@
 					<div class="preloader">
 						<div class="preloader__body">
               <div class="preloader__logo">
-                <div class="logo-back logo-preloader" style="mix-blend-mode: luminosity; z-index: 2;">
-                  <img src="img/preloader.png" alt="Image Logo" width=298>    
+                <div class="logo-back logo-preloader" style="z-index: 2;">
+                  <img src="img/logo-dark.png" alt="Image Logo" width=295>    
                 </div>
                 <div class="logo-front logo-preloader" style="clip-path: inset(0 0 0 0);">
-                  <img src="img/preloader.png" alt="Image Logo" width=298>    
+                  <img src="img/logo.png" alt="Image Logo" width=295>    
                 </div> 
               </div>
 						</div>
@@ -2435,6 +2580,7 @@
 					function setValueProgress(progress) {
 						if (showPecentLoad) showPecentLoad.innerText = `${progress}%`;
 						if (showLineLoad) showLineLoad.style.clipPath = `inset(0 0 ${100 - progress}% 0)`;
+
 					}
 					setValueProgress(progress);
 
@@ -2443,8 +2589,10 @@
 						progress = Math.round((100 / preloaderImages.length) * imagesLoadedCount);
 						const intervalId = setInterval(() => {
 							counter >= progress ? clearInterval(intervalId) : setValueProgress(++counter);
-							if (counter >= 100) addLoadedClass();
-						}, 500);
+							if (counter >= 100) setTimeout(() => {
+								addLoadedClass();
+							}, 500);
+						}, 700);
 					}
 
 					function addLoadedClass() {
@@ -2454,7 +2602,7 @@
 						setTimeout(() => {
 							preloader.remove();
 							preloaderContainer.remove();
-						}, 1300);
+						}, 10000);
 					}
 				} else {
 					preloaderContainer.remove();
@@ -2465,8 +2613,8 @@
 	</div>
 
 
-	<script src="https://telegram.org/js/telegram-web-app.js?_v=20240830210406"></script>
-	<script src="js/app.min.js?_v=20240830210406"></script>
+	<script src="https://telegram.org/js/telegram-web-app.js?_v=20240909143231"></script>
+	<script src="js/app.min.js?_v=20240909143231"></script>
 
 
 </body>

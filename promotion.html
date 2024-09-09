@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240830210406">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240909143231">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1363,7 +1363,7 @@
 					}
 					.preloader__logo {
 						width: min(29vmin, 15vmax);
-						height: min(39vmin, 23vmax);
+						height: min(28vmin, 23vmax);
 						position: relative;
 						display: flex;
 						flex-direction: column;
@@ -1415,11 +1415,11 @@
 					<div class="preloader">
 						<div class="preloader__body">
               <div class="preloader__logo">
-                <div class="logo-back logo-preloader" style="mix-blend-mode: luminosity; z-index: 2;">
-                  <img src="img/preloader.png" alt="Image Logo" width=298>    
+                <div class="logo-back logo-preloader" style="z-index: 2;">
+                  <img src="img/logo-dark.png" alt="Image Logo" width=295>    
                 </div>
                 <div class="logo-front logo-preloader" style="clip-path: inset(0 0 0 0);">
-                  <img src="img/preloader.png" alt="Image Logo" width=298>    
+                  <img src="img/logo.png" alt="Image Logo" width=295>    
                 </div> 
               </div>
 						</div>
@@ -1449,6 +1449,7 @@
 					function setValueProgress(progress) {
 						if (showPecentLoad) showPecentLoad.innerText = `${progress}%`;
 						if (showLineLoad) showLineLoad.style.clipPath = `inset(0 0 ${100 - progress}% 0)`;
+
 					}
 					setValueProgress(progress);
 
@@ -1457,8 +1458,10 @@
 						progress = Math.round((100 / preloaderImages.length) * imagesLoadedCount);
 						const intervalId = setInterval(() => {
 							counter >= progress ? clearInterval(intervalId) : setValueProgress(++counter);
-							if (counter >= 100) addLoadedClass();
-						}, 500);
+							if (counter >= 100) setTimeout(() => {
+								addLoadedClass();
+							}, 500);
+						}, 700);
 					}
 
 					function addLoadedClass() {
@@ -1468,7 +1471,7 @@
 						setTimeout(() => {
 							preloader.remove();
 							preloaderContainer.remove();
-						}, 1300);
+						}, 10000);
 					}
 				} else {
 					preloaderContainer.remove();
@@ -1479,8 +1482,8 @@
 	</div>
 
 
-	<script src="https://telegram.org/js/telegram-web-app.js?_v=20240830210406"></script>
-	<script src="js/app.min.js?_v=20240830210406"></script>
+	<script src="https://telegram.org/js/telegram-web-app.js?_v=20240909143231"></script>
+	<script src="js/app.min.js?_v=20240909143231"></script>
 
 
 </body>
